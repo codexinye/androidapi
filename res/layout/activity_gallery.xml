@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFFFF">
+    <ImageView 
+        android:id="@+id/galleryImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        />
+    <!--adViewLayout为广告条容器-->
+    <LinearLayout
+        android:id="@+id/adViewLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+     />
+    <Gallery 
+        android:id="@+id/galleryGallery"
+        android:background="#55336699"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spacing="10dip"
+        android:layout_gravity="bottom"
+        />
+</FrameLayout>

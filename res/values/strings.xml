@@ -1,0 +1,88 @@
+<resources>
+    <!--  -->
+    <string name="app_name">支持库</string>
+    <string name="youmi_id">f746566f2ab9e190</string>
+    <string name="youmi_key">3356ff5e4916a60c</string>
+    <string name="sdcard_eject">SDCard不可用</string>
+    <string name="sdcard_mounted">SDCard已挂载</string>
+    <!-- 主界面 -->
+    <string name="title_main">请点击任一条目操作</string>
+    <string name="item_title_viewpager_main">ViewPager</string>
+    <string name="item_title_gestureDetector_main">GestureDetector</string>
+	<string name="item_title_fragment_main">Fragment</string>
+	<string name="item_title_edittext_main">图文混排</string>
+	<string name="item_title_manifest_main">Manifest</string>
+	<string name="item_title_multiplemedia_mian">多媒体API</string>
+	<string name="item_title_notification_main">状态栏通知</string>
+	<string name="item_title_drag_main">拖拽操作</string>
+	<string name="item_title_popupwindow_main">PopupWindow</string>
+	<string name="item_title_asyncload_main">异步加载</string>
+	<string name="item_title_gallery_main">Gallery</string>
+	<string name="item_title_download_main">多线程下载</string>
+	<string name="item_title_tabhost_main">TabHost</string>
+	<string name="item_title_picturemodify_main">图片修改</string>
+	<string name="item_title_youku_main">YouKu Menu</string>
+	<string name="item_title_activitygroup_main">ActivityGroup</string>
+	<string name="item_title_countdowntimer_main">CountDownTimer</string>
+	<string name="item_title_gallay_gridview_main">GalleryAndGridView</string>
+	<string name="item_title_singlechoice_main">条目单选</string>
+    <!-- ViewPager -->
+    <string name="item_01_viewpager_title">第1111111个条目</string>
+    <string name="item_02_viewpager_title">第2222222个条目</string>
+    <string name="item_03_viewpager_title">第3333333个条目</string>
+    <string name="item_04_viewpager_title">第4444444个条目</string>
+    <string name="item_05_viewpager_title">第5555555个条目</string>
+    <string name="item_06_viewpager_title">第6666666个条目</string>
+    <string name="item_07_viewpager_title">第7777777个条目</string>
+    <string name="item_08_viewpager_title">第8888888个条目</string>
+    <string name="item_09_viewpager_title">第9999999个条目</string>
+    <string name="item_00_viewpager_title">第0000000个条目</string>
+	<!-- GestureDetector -->
+	<string name="gestureDetector_tips">上下左右滑动,滑动方向：</string>
+	<!-- Fragment -->
+	<!-- EditText -->
+	<string name="insert_image">插入图片</string>
+	<!-- multiple media -->
+	<string name="play_raw_audio">raw音频</string>
+	<string name="play_file_audio">本地音频</string>
+	<string name="play_network_audio">网络音频</string>
+	<string name="start_background_audio">播放后台音频</string>
+	<string name="stop_background_audio">停止后台音频</string>
+	<string name="startPreviewPicture">开始预览图片</string>
+	<string name="startPreviewVideo"></string>
+	<string name="startCapturePicuture">捕捉图片</string>
+	<string name="startCaptureVideo">开始捕捉视频</string>
+	<string name="stopCaptureVideo">停止捕捉视频</string>
+	<!-- notification -->
+	<string name="notification_test1">测试1</string>
+	<string name="notification_test1_cancel">取消测试1</string>
+	<string name="notification_cancel_all">取消所有通知</string>
+	<!-- drag -->
+	<string name="button_drag">按下并且拖动</string>
+	<!-- popup window -->
+	<string name="popupwindow_title">点击一个条目</string>
+	<!-- asyncload -->
+	<string name="image_description">请稍后，正在载入内容</string>
+	<!-- multiple thread download -->
+	<string name="download_url_text">请输入下载地址</string>
+	<string name="download_url">http://www.</string>
+	<string name="download_thread_text">开启线程数量</string>
+	<string name="download_thread">3</string>
+	<string name="download_button_text">开始下载文件</string>
+	<!-- youku -->
+	<string name="youku_home">首页</string>
+	<string name="youku_channel">频道</string>
+	<string name="youku_download">下载</string>
+	<string name="youku_upload">上传</string>
+	<string name="youku_search">搜索</string>
+	<string name="youku_more">更多</string>
+	<string name="youku_close">关闭</string>
+	<string name="youku_favorite">收藏</string>
+	<!-- activty group -->
+	<string name="activity_group_title">ActivityGroup</string>
+	<!-- count down timer -->
+	<string name="count_down_timer_text">剩余%d秒</string>
+	<string name="count_down_timer_finish">倒计时完成</string>
+	<!-- single choice listview -->
+	<string name="singlechoice_item">这是第%s个条目</string>
+</resources>

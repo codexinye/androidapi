@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFFFF">
+    <!--adViewLayout为广告条容器-->
+    <LinearLayout
+        android:id="@+id/adViewLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+     />
+    <ImageView 
+        android:id="@+id/dragImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher"
+        android:clickable="true"
+        />
+    <Button
+        android:id="@+id/dragButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#FF336699"
+        android:text="@string/button_drag"
+        android:clickable="true"
+        />
+</LinearLayout>

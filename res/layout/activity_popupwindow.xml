@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popupwindowRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFFFF">
+    <!--adViewLayout为广告条容器-->
+    <LinearLayout
+        android:id="@+id/adViewLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+     />
+</LinearLayout>

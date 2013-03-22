@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+    <!--adViewLayout为广告条容器-->
+    <LinearLayout
+        android:id="@+id/adViewLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+     />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:background="#FF0099FF">
+        <TextView
+            android:id="@+id/cust_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/activity_group_title"
+            android:textColor="@android:color/white"
+            android:textSize="28sp" >
+        </TextView>
+    </LinearLayout>
+    <!-- 中间动态加载View -->
+
+    <LinearLayout
+        android:id="@+id/containerBody"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#00000000"
+        android:orientation="horizontal">
+
+        <!-- 功能模块按钮1 -->
+
+        <ImageView
+            android:id="@+id/btnModule1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="3dp"
+            android:src="@drawable/image_000"
+            android:layout_weight="1"/>
+        <!-- 功能模块按钮2 -->
+
+
+        <ImageView
+            android:id="@+id/btnModule2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="3dp"
+            android:src="@drawable/image_001" 
+            android:layout_weight="1"/>
+        <!-- 功能模块按钮3 -->
+
+        <ImageView
+            android:id="@+id/btnModule3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="3dp"
+            android:src="@drawable/image_002"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+    <RadioGroup 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <RadioButton 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+           	android:checked="true"
+           	android:background="@drawable/icon_000"
+           	android:button="@drawable/image_000"
+           	android:drawableTop="@drawable/five"
+            />
+        <RadioButton 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+           	android:background="@drawable/icon_001"
+           	android:button="@drawable/image_001"
+           	android:drawableTop="@drawable/first"
+            />
+    </RadioGroup>
+</LinearLayout>

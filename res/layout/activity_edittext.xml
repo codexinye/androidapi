@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFFFF">
+    <!--adViewLayout为广告条容器-->
+    <LinearLayout
+        android:id="@+id/adViewLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+     />
+    <EditText 
+        android:id="@+id/edittextEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@null"
+        android:gravity="top|left"
+		android:scrollbars="vertical"
+        />
+	<Button 
+	    android:id="@+id/edittextButton"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_horizontal"
+	    android:text="@string/insert_image"
+	    android:textSize="20sp"
+	    android:textColor="#FF336699"
+	    android:padding="5dip"/>
+</LinearLayout>
